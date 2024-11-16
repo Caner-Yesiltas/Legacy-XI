@@ -28,7 +28,7 @@ export const data = [
   {
     id: 4,
     name: 'Andres Iniesta',
-    img: 'https://www.dfb.de/uploads/tx_news/iniesta_02.jpg',
+    img: 'https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cc15/live/bf9f76c0-9600-11ef-8e2e-e71633ffe5ec.jpg.webp',
     statistics: ['868 Matches', '90 Goals', '162 Assists', '40 Cups'],
     profile:
       'https://www.transfermarkt.com.tr/andres-iniesta/profil/spieler/7600',
