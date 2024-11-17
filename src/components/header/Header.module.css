@@ -1,8 +1,7 @@
-.title{
-    color: #130a0a ;
-    background-color: rgba(243, 243, 241, 0.3);
-    padding: .3125rem;
-    border-radius: 1rem;
-    display: inline-block;
-  
+.title {
+  color: #130a0a;
+  background-color: rgba(243, 243, 241, 0.3);
+  padding: 0.3125rem;
+  border-radius: 1rem;
+  display: inline-block;
 }

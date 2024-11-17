@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Card} from 'react-bootstrap';
+import { Container, Row, Form} from 'react-bootstrap';
 import { data } from '../../helper/data';
 import LegendCard from './LegendCard';
 
 const LegendContainer = () => {
     const [show, setShow] = useState(true)
+   const [search, setSearch] = useState("")
 
     console.log(data);
     // Console.log usage in React:
@@ -12,7 +13,14 @@ const LegendContainer = () => {
 // ✅ Inside useEffect (for state/prop changes)
 // ✅ In event handlers (onClick, onChange etc.)
 // ❌ Avoid inside component body (causes multiple renders)
-  return <Container>
+
+
+
+  return (
+    <>  {/* Add Fragment to wrap multiple elements */}
+
+    <Form.Control type="search" placeholder="Search Legends" onChange={handleChange}  />
+  <Container>
   <Row>
     {data.map((legend) => 
         
@@ -22,7 +30,11 @@ const LegendContainer = () => {
      
   </Row>
     
-  </Container>;
-};
+  </Container> 
+  </>
+  )
+ }; 
 
 export default LegendContainer;
+
+

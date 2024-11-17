@@ -6,9 +6,9 @@ const LegendCard = ({legend}) => {
   return (
     
       <Col xs={10} sm={8} md={6} lg={4} xl={3} className='g-3'>
-    <Card >
+    <Card  onClick={()=> setShow(!show)} role="button" >
         {
-            show ? <Card.Img onClick={()=> setShow(false)} variant="top" src={legend.img} className="legend-image"   /> : <> <Card.Body onClick={()=> setShow(true)} >
+            show ? <Card.Img variant="top" src={legend.img} className="legend-image" title={legend.name}   /> : <> <Card.Body onClick={()=> setShow(true)} >
             <Card.Title>{legend.name}</Card.Title>
            <ul className='m-auto w-100 '  > 
             {legend.statistics.map(item => <li className='list-unstyled h5 text-start' >⚽{item}</li>)}

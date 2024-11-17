@@ -8,8 +8,6 @@ function App() {
   <Container className='text-center my-5' >
     <Header />
     <LegendContainer/>
-
-
   </Container>
   )
 }
