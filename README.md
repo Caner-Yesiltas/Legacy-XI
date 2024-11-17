@@ -98,7 +98,7 @@ Caner Yesiltas - caneryesiltas1@gmail.com
 
 Project Link: [https://legacy-xi-xi.vercel.app/](https://legacy-xi-xi.vercel.app/)
 
----
+
 
 <div align="center">
  Made with ❤️ by Caner Yesiltas
