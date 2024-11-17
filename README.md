@@ -34,7 +34,7 @@ An interactive football legends showcase application built with React. Users can
 
 ## 💻 Project Structure
 
-src/
+```src/
 ├── components/
 │   ├── header/
 │   │   └── Header.jsx
