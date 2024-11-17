@@ -47,7 +47,7 @@ src/
 │   └── logo.png
 ├── styles/
 │   └── App.css
-└── App.js```
+└── App.js
 
 ## 🔍 Core Functionality
 
