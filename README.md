@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Football Legends App ⚽
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+ <h2>
+   👉 <a href="https://legacy-xi-xi.vercel.app/">Live Demo</a> 👈
+ </h2>
+</div>
 
-## Available Scripts
+<div align="center">
+ <img src="/assets/Futboll-Legends.gif" alt="Football Legends Demo" width="800"/>
+</div>
 
-In the project directory, you can run:
+## 📌 About The Project
 
-### `yarn start`
+An interactive football legends showcase application built with React. Users can explore legendary football players, view their career statistics, and search through the database with a dynamic filtering system.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✨ Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🔍 Dynamic search functionality
+- 🎯 Interactive card flipping animations
+- ⚽ Detailed player statistics 
+- 📊 Career information display
+- 📱 Responsive grid layout
+- 🎨 Clean and modern UI
+- 🔄 Smooth state transitions
 
-### `yarn test`
+### 🛠️ Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- CSS Modules
+- CSS3
 
-### `yarn build`
+## 💻 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```src/
+├── components/
+│   ├── header/
+│   │   └── Header.jsx
+│   └── legends/
+│       ├── LegendCard.jsx
+│       └── LegendContainer.jsx
+├── helper/
+│   └── data.js
+├── assets/
+│   └── logo.png
+├── styles/
+│   └── App.css
+└── App.js```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔍 Core Functionality
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Search System**: Real-time player filtering
+- **Interactive Cards**: Click-to-flip card interface
+- **Dynamic Content**: Conditional rendering of player info
+- **Responsive Grid**: Bootstrap-based responsive layout
+- **Component Architecture**: Modular and maintainable code
 
-### `yarn eject`
+## 🎯 Component Details
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### LegendCard Component
+- Interactive flip animation
+- Player image display
+- Statistics presentation
+- Career year information
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### LegendContainer Component
+- Search functionality
+- Data filtering
+- Grid layout management
+- Card rendering
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Header Component
+- Logo display
+- Title presentation
+- Consistent branding
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📱 Responsive Design
 
-## Learn More
+- Bootstrap Grid System
+- Mobile-first approach
+- Responsive image sizing
+- Flexible search bar
+- Adaptive card layouts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions make the open source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Code Splitting
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### Analyzing the Bundle Size
+## 📫 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Caner Yesiltas - caneryesiltas1@gmail.com
 
-### Making a Progressive Web App
+Project Link: [https://legacy-xi-xi.vercel.app/](https://legacy-xi-xi.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+ Made with ❤️ by Caner Yesiltas
+</div>
