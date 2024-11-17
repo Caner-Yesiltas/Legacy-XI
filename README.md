@@ -94,12 +94,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📫 Contact
 
-Caner Yesiltas - caneryesiltas1@gmail.com
+[Caner Yesiltas](mailto:caneryesiltas1@gmail.com)
 
-Project Link: [https://legacy-xi-xi.vercel.app/](https://legacy-xi-xi.vercel.app/)
+[Project Link](https://legacy-xi-xi.vercel.app/)
 
-
-
-<div align="center">
- Made with ❤️ by Caner Yesiltas
-</div>
+---
+<div align="center">Made with ❤️ by Caner Yesiltas</div>
