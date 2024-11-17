@@ -14,15 +14,22 @@ const LegendContainer = () => {
 // ✅ In event handlers (onClick, onChange etc.)
 // ❌ Avoid inside component body (causes multiple renders)
 
+const handleChange = (e) => {
 
+    setSearch(e.target.value)
+    
+}
+
+    const filterData = data.filter(legend => legend.name.toLowerCase().includes(search.trim().toLowerCase()))
 
   return (
-    <>  {/* Add Fragment to wrap multiple elements */}
+    <>
+      {/* Add Fragment to wrap multiple elements */}
 
-    <Form.Control type="search" placeholder="Search Legends" onChange={handleChange}  />
+    <Form.Control type="search" placeholder="Search Legends" onChange={ handleChange}  />
   <Container>
   <Row>
-    {data.map((legend) => 
+    {filterData.map((legend) => 
         
         <LegendCard key={legend.id}  legend={legend}  />
       
