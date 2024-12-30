@@ -1,4 +1,8 @@
+<div align="center">
+ <h1> 
 # Football Legends App ⚽
+ </h1>
+</div>
 
 <div align="center">
  <h2>
